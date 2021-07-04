@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://bitnovosti.com/wp-content/uploads/2017/03/artificial_intelligence_benefits_risk.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    background-size: cover;
+    color: white;
+    font-family: Verdana;
+}
+
+header{
+    margin: 0;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+h1,h2{margin: 5% 10%;}
+
+#form{
+    margin: 5% 10%;
+}
+
+#body{
+    position: fixed;
+    height: 300%;
+    width: 100%;
+    background: rgba(0,0,0, .5);
+}
