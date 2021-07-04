@@ -16,14 +16,15 @@
         <h2>Test the web service: put in any film comment and you will know its rating</h2>
         <div id="form">
             <form action="/comment/" method="post">
-
-                    {% csrf_token %}
-                    {{ form }}
-                     <input type="submit" value="Submit">
+                {% csrf_token %}
+                <table>
+                    {{ form.as_table }}
+                </table>
+                <p><input type="submit" value="Send"></p>
             </form>
 
-            <div><p>{{ status }}</p></div>
-            <div><p>{{ rating }}</p></div>
+            <div class="prediction"><p>{{ status }}</p></div>
+            <div class="prediction"><p>{{ rating }}</p></div>
         </div>
     </div>
 

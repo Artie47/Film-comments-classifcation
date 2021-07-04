@@ -4,7 +4,7 @@ from .ml_model import model
 
 
 def index(request):
-    form = CommentForm(request.POST)
+    form = CommentForm()
     return render(request, "index.html", {'form': form})
 
 

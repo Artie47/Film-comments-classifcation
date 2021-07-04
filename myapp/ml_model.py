@@ -35,7 +35,7 @@ class Model:
         tokens = word_tokenize(sentence, language="english")
         tokens = [snowball.stem(i) for i in tokens if i not in string.punctuation]
         counter += 1
-        print(counter)
+        print("Iteration:", counter)
         return tokens
 
     def train(self):

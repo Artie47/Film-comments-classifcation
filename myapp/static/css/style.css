@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(https://bitnovosti.com/wp-content/uploads/2017/03/artificial_intelligence_benefits_risk.jpg);
+    background-image: url(https://i.ytimg.com/vi/mwLiZXFRPdE/maxresdefault.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
 
     background-size: cover;
     color: white;
-    font-family: Verdana;
+    font-family: Courier New;
 }
 
 header{
@@ -18,15 +18,40 @@ header{
     color: white;
 }
 
-h1,h2{margin: 5% 10%;}
+h1,h2{margin: 4% 10%;}
 
 #form{
-    margin: 5% 10%;
+    margin: 10% 25%;
 }
 
 #body{
     position: fixed;
     height: 300%;
     width: 100%;
-    background: rgba(0,0,0, .5);
+    background: rgba(0,0,0, .6);
+}
+
+#comment, input{
+    background-color: rgba(0,0,0,0.7);
+    border: solid 2px white;
+    color: white;
+}
+
+#comment{
+    font-size: 16px;
+    font-family: Courier New;
+    font-weight: bold;
+}
+
+input{
+    width: 80px;
+    height: 35px;
+    font-family: Courier New;
+}
+
+.prediction{
+    margin-left: 25%;
+    font-size:20px;
+    background-color: rgba(0,0,0,0.7);
+    width: 200px;
 }
